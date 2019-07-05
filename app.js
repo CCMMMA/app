@@ -14,7 +14,7 @@ if ('serviceWorker' in navigator) {
 }
 
 window.addEventListener('load',function (e) {
-    let map=jQueryProtect("#map").MeteoUniparthenopeMap("com63049","wrf5","wn1");
+    let map=jQueryProtect("#map").MeteoUniparthenopeMap("reg15","wrf5","wn1",null,{"noPopup":true,"mapName":"weather","baseLink":"details.html?"});
 });
 
 window.addEventListener('resize',function (e) {
